@@ -14,4 +14,4 @@ Hi, I’m **Taylor Davis**, a Data Engineer and Analytics Professional focused o
 ## Projects
 - [Farm→Market Optimizer](./projects/farm-market-optimizer/)
 - [Mold Risk Model](./projects/mold-risk-model/)
-
+- [ML Studies](./projects/ml-studies/)
