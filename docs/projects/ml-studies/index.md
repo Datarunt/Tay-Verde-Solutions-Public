@@ -49,7 +49,7 @@ These studies live in my **private development repo** and include:
 These studies form the foundation for my applied analytics work, including:
 - Mold Risk Prediction (microgreens)  
 - Farm Route Optimization  
-- Inventory Forecasting & Delivery Assurance  
+- Forecasting   
 
 ## Code Availability
 These studies live in my private repo as ongoing work.  
