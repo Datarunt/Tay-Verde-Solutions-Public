@@ -8,7 +8,9 @@ Hi, I’m **Taylor Davis**, a Data Engineer and Analytics Professional focused o
 - ETL/ELT pipelines and analytics in Azure
 - IoT + ML experiments for coffee and microgreens
 
-## Quick Links
-- 📄 [Resume](./resume/)
-- 📊 Projects (coming soon)
+## Resume
+- [Resume](./resume/)
+
+## Projects
+- [Farm→Market Optimizer](./projects/farm-market-optimizer/)  
 
