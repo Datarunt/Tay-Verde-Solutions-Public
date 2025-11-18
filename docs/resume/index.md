@@ -4,8 +4,8 @@ Results-driven Data Engineer and Analytics Professional with 8+ years of experie
 
 EDUCATION
 
-Master of Business Administration in Business Intelligence & Analytics | Nova Southeastern University                          2019-2021 
-Bachelor of Science in Behavioral Neuroscience | St. Lawrence University                                                       2010-2014
+Master of Business Administration in Business Intelligence & Analytics, Nova Southeastern University                               2019-2021 
+Bachelor of Science in Behavioral Neuroscience, St. Lawrence University                                                            2010-2014
 
 WORK EXPERIENCE
 
