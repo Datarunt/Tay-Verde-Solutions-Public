@@ -9,7 +9,7 @@ Bachelor of Science in Behavioral Neuroscience | St. Lawrence University        
 
 WORK EXPERIENCE
 
-Delivery Assurance Manager | Collins Aerospace | Remote                                                                 March 2017-Present
+Delivery Assurance Manager, Collins Aerospace(Remote)                                                                      March 2017-Present
 
 - Designed and maintained automated ETL pipelines to forecast and manage $150M+ in annual inventory sales, reducing manual reporting by 50%
 - Integrated and cleaned SAP data to support business-critical analytics in supply chain
@@ -17,13 +17,13 @@ Delivery Assurance Manager | Collins Aerospace | Remote                         
 - Led executive reporting efforts, presenting complex data insights to leadership teams to support strategic planning
 - Trained staff on analytics tools within Microsoft Office 365 building a self-service reporting culture
 
-Delivery Assurance Team Lead | Collins Aerospace | Windsor Locks, CT                                                     June 2016-March 2017
+Delivery Assurance Team Lead, Collins Aerospace(Windsor Locks, CT)                                                       June 2016-March 2017
 
 - Developed and deployed the first customer inventory forecasting process for our team, supporting our $70M sales target
 - Extracted and analyzed SAP data to identify risk trends, proactively addressing delivery bottlenecks
 - Presented business insights to senior management using data visualization
 
-Delivery Assurance Analyst | CDI | Windsor Locks, CT                                                                      June 2015-June 2016
+Delivery Assurance Analyst, CDI (Windsor Locks, CT)                                                                       June 2015-June 2016
 
 - Designed ETL processes to automate the generation of key operational reports, improving efficiency and enabling data-driven decision-making
 - Led data-driven meetings to identify critical business risks and implemented solutions to address issues in real-time
