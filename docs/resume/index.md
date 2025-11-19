@@ -1,3 +1,5 @@
+![](resume/profilepic.png)
+
 VALUE ADDED TO YOUR ORGANIZATION
 
 Results-driven Data Engineer and Analytics Professional with 8+ years of experience transforming complex business and supply chain data into actionable insights. Proficient in building ETL pipelines, SQL optimization, and integrating ERP systems (SAP) with modern analytics platforms. Certified in Azure Data Engineering and AI/ML, with a proven record of leveraging data to drive strategic decisions across delivery assurance and inventory forecasting. Strong communicator who thrives in cross-functional environments, eager to contribute to advanced data systems within operations.
