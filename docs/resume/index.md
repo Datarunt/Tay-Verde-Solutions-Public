@@ -1,4 +1,4 @@
-![](resume/profilepic.png)
+![](/resume/profilepic.png)
 
 VALUE ADDED TO YOUR ORGANIZATION
 
