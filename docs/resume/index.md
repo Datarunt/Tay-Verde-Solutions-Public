@@ -1,4 +1,4 @@
-<img src="/docs/resume/profilepic.png" alt="Logo">
+<img src="resume/profilepic.png" alt="Logo">
 
 VALUE ADDED TO YOUR ORGANIZATION
 
