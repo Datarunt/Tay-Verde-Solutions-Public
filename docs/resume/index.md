@@ -1,4 +1,4 @@
-<img src="resume/profilepic.png" alt="Logo">
+![Profile Picture](profilepic.png)
 
 VALUE ADDED TO YOUR ORGANIZATION
 
