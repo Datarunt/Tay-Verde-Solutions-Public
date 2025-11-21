@@ -1,4 +1,4 @@
-![](/docs/resume/profilepic.png)
+<img src="/docs/resume/profilepic.png" alt="Logo">
 
 VALUE ADDED TO YOUR ORGANIZATION
 
