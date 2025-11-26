@@ -45,4 +45,4 @@ If you’re interested in data engineering, supply chain analytics, or applied M
 
 - **Email:** tgdavi05@gmail.com  
 - **LinkedIn:** www.linkedin.com/in/taylor-davis-69566821a
----
+
