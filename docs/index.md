@@ -40,7 +40,7 @@ and feature engineering—using lessons learned from real supply chain scenarios
 
 ---
 
-# 📬 Connect With Me  
+# Connect With Me  
 If you’re interested in data engineering, supply chain analytics, or applied ML projects, feel free to reach out.
 
 - **GitHub:** https://github.com/Datarunt
