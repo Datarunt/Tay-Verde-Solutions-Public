@@ -1,9 +1,9 @@
 ---
-title: Tay Verde Solutions
+title: My Personal Portfolio 
 layout: default
 ---
 
-Hi, I’m **Taylor Davis**, a Data Engineer and Analytics Professional focused on IoT + ML experiments within supply chain for coffee and microgreens
+Hi, I’m **Taylor Davis**, a Data Engineer and Analytics Professional focused on IoT + ML experiments within supply chain
 
 ## Resume
 - [Resume](./resume/)
