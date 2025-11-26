@@ -40,9 +40,3 @@ and feature engineering—using lessons learned from real supply chain scenarios
 
 ---
 
-# Connect With Me  
-If you’re interested in data engineering, supply chain analytics, or applied ML projects, feel free to reach out.
-
-- **Email:** tgdavi05@gmail.com  
-- **LinkedIn:** www.linkedin.com/in/taylor-davis-69566821a
-
