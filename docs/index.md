@@ -6,12 +6,11 @@ layout: default
 **Data Engineer & Analytics Professional** specializing in:
 
 - Machine learning for forecasting & delivery reliability  
-- IoT environmental monitoring (ESP32, Raspberry Pi, sensors)  
 - Data engineering pipelines (Python, SQL, Streamlit, OR-Tools)  
 - Supply chain analytics & decision-support systems  
 
 I use applied ML + optimization to solve real-world problems in **agriculture**,  
-**supply chain**, and **small-scale logistics**.
+**supply chain**, and **small-scale logistics**. I also study IoT environmental monitoring (ESP32, Raspberry Pi, sensors) on the side.
 
 ---
 
