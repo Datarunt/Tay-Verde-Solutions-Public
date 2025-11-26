@@ -74,8 +74,7 @@ VS Code · Google Colab
 
 ## Contact
 - **Email:** tgdavi05@gmail.com  
-- **LinkedIn:** www.linkedin.com/in/taylor-davis-69566821a   
----
+- **LinkedIn:** www.linkedin.com/in/taylor-davis-69566821a
 
 ## What I’m Focusing On
 - Building modern data engineering portfolios  
