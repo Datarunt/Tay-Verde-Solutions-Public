@@ -9,7 +9,6 @@ This section highlights my machine learning research, experiments, and explorato
 
 These studies live in my **private development repo** and include:
 - Regression benchmarking (Linear Regression, Random Forest, XGBoost)
-- Classification experiments (precision vs recall, F1 scoring, ROC)
 - Error metric comparisons (RMSE vs MAE vs MBE)
 - Feature engineering prototypes
 - Time-series forecasting experiments
@@ -26,20 +25,13 @@ These studies live in my **private development repo** and include:
 - Model tuning with GridSearchCV / RandomizedSearchCV  
 - Error analysis: RMSE, MAE, MBE, R²  
 
-### 2. Classification
-- Feature cleaning and imputation  
-- Overfitting / underfitting checks  
-- Precision vs Recall tradeoff  
-- Confusion Matrix interpretation  
-- F1 score optimization  
-
-### 3. Time Series Experiments
+### 2. Time Series Experiments
 - Rolling averages  
 - Lag features  
 - Simple forecasting baselines  
 - Comparison to tree-based methods  
 
-### 4. EDA Notebook Patterns
+### 3. EDA Notebook Patterns
 - Cleaning workflows  
 - Correlation mapping  
 - Outlier detection  
