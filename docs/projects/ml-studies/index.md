@@ -32,16 +32,16 @@ These studies live in my **private development repo** and include:
 - Comparison to tree-based methods  
 
 ### 3. EDA Notebook Patterns
-- Cleaning workflows  
-- Correlation mapping  
-- Outlier detection  
-- Trend and seasonality inspection  
+- Data cleaning
+- Correlation mapping
+- Outlier detection
+- Trend and seasonality inspection
+- Quick prototype visualizations
 
 ## Why This Matters
 These studies form the foundation for my applied analytics work, including:
-- Mold Risk Prediction (microgreens)  
-- Farm Route Optimization  
-- Forecasting   
+- Farm Route Optimization: Model insights feed into cost estimation, service-level prediction, and future enhancements like “model-based ETA per stop” and “vehicle performance modeling.”
+- Delivery Forecasting: Understanding baseline models, tuning methods, and feature engineering helps improve ETA prediction quality in logistics systems. 
 
 ## Code Availability
 These studies live in my private repo as ongoing work.  
