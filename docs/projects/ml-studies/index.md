@@ -8,7 +8,7 @@ layout: default
 This section highlights my machine learning research, experiments, and exploratory notebooks that support my applied projects (Delivery Forecasting, Mold Risk Prediction, Farm Route Optimization, and more).
 
 These studies live in my **private development repo** and include:
-- Regression benchmarking (Linear Regression, Random Forest, XGBoost)
+- Regression benchmarking (Linear Regression, etc)
 - Error metric comparisons (RMSE vs MAE vs MBE)
 - Feature engineering prototypes
 - Time-series forecasting experiments
@@ -17,19 +17,18 @@ These studies live in my **private development repo** and include:
 ## Topics Included
 
 ### 1. Regression Models
-- Linear Regression  
-- Ridge / Lasso  
-- Random Forest Regressors  
-- Gradient Boosting  
-- XGBoost  
-- Model tuning with GridSearchCV / RandomizedSearchCV  
-- Error analysis: RMSE, MAE, MBE, R²  
+- Naive
+- Moving Average
+- Basic Linear Regression  
+- Exponential Smoothing
+- ARIMA
+- Prophet
+- Error analysis: RMSE, MAE, MBE 
 
 ### 2. Time Series Experiments
 - Rolling averages  
 - Lag features  
 - Simple forecasting baselines  
-- Comparison to tree-based methods  
 
 ### 3. EDA Notebook Patterns
 - Data cleaning
