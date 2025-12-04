@@ -14,7 +14,7 @@ delivery performance, routing efficiency, traffic delays, and ETA modeling.
 
 ---
 
-## 🔍 What This Pipeline Does
+##  What This Pipeline Does
 
 Each week, the system:
 
@@ -35,7 +35,7 @@ The pipeline is intentionally **transparent, modular, and easy to audit**—mirr
 
 ---
 
-## 🗂 Data Sources
+##  Data Sources
 
 Datasets are chosen based on:
 
@@ -54,7 +54,7 @@ These datasets complement the FMO routing engine and support ML-ready feature en
 
 ---
 
-## 🏗 Architecture Overview
+##  Architecture Overview
 
 A classic DE-style workflow:
 
@@ -77,7 +77,7 @@ This modular layout follows real-world logistics analytics architectures.
 
 ---
 
-## 🧠 Why This Project Matters
+##  Why This Project Matters
 
 This project demonstrates core skills expected of Data Engineers and ML Engineers:
 
@@ -92,7 +92,7 @@ It also grounds the **FMO app** in real data, giving the entire platform credibi
 
 ---
 
-## 📊 Deliverables Included
+##  Deliverables Included
 
 - Weekly-refreshed raw datasets (`/data/raw/`)  
 - Clean feature datasets (`/data/clean/`)  
