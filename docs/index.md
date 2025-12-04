@@ -29,21 +29,19 @@ Feeds the **Farm Market Optimizer (FMO)** app and **ML Studies** section with re
 
 **[Project Page](./projects/delivery-routing-analytics-pipeline/)**
 
-## **Farm Market Optimizer (FMO)**  
-**Python · OR-Tools · Streamlit · Route Optimization**  
-A lightweight routing and logistics engine designed for small farms and local food networks.  
-Features VRP optimization, basic ETA modeling, and an interactive Streamlit app.
-
-**[Project Page](./projects/farm-market-optimizer/)**
-
----
-
 ## **Machine Learning Studies (MLS)**  
 **EDA · Regression · Classification · ML Pipelines**  
 My personal ML sandbox where I explore delivery forecasting, delay-risk modeling,  
 and feature engineering—using lessons learned from real supply chain scenarios.
 
 **[Project Page](./projects/ml-studies/)**
+
+## **Farm Market Optimizer (FMO)**  
+**Python · OR-Tools · Streamlit · Route Optimization**  
+A lightweight routing and logistics engine designed for small farms and local food networks.  
+Features VRP optimization, basic ETA modeling, and an interactive Streamlit app.
+
+**[Project Page](./projects/farm-market-optimizer/)**
 
 ---
 
