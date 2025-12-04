@@ -22,6 +22,13 @@ View my most recent professional resume:
 
 # Featured Projects
 
+## **Weekly Delivery & Routing Analytics Pipeline**  
+**Python · APIs · Pandas · GitHub Actions · Data Engineering**  
+A weekly-updating data pipeline that ingests public traffic and weather data to generate delivery-ready features for routing, ETA prediction, and congestion analysis.  
+Feeds the **Farm Market Optimizer (FMO)** app and **ML Studies** section with real-world signals (distance, delay, speed factors) to support forecasting, feature engineering, and model selection.
+
+**[Project Page](./projects/delivery-routing-analytics-pipeline/)**
+
 ## **Farm Market Optimizer (FMO)**  
 **Python · OR-Tools · Streamlit · Route Optimization**  
 A lightweight routing and logistics engine designed for small farms and local food networks.  
