@@ -40,7 +40,21 @@ These studies live in my **private development repo** and include:
 ## Why This Matters
 These studies form the foundation for my applied analytics work, including:
 - Farm Route Optimization: Model insights feed into cost estimation, service-level prediction, and future enhancements like “model-based ETA per stop” and “vehicle performance modeling.”
-- Delivery Forecasting: Understanding baseline models, tuning methods, and feature engineering helps improve ETA prediction quality in logistics systems. 
+- Delivery Forecasting: Understanding baseline models, tuning methods, and feature engineering helps improve ETA prediction quality in logistics systems.
+
+## Machine Learning Use Cases in Logistics
+
+- **Smarter Demand Forecasting**  
+  Machine learning models can predict order volumes, inventory needs, and labor requirements with greater accuracy, reducing shortages and excess inventory.
+
+- **Optimized Routing and Network Planning**  
+  Algorithms can generate efficient delivery routes and load plans in real time, lowering transportation costs and improving delivery reliability.
+
+- **Predictive Asset Maintenance**  
+  Machine learning can unconver early indicators of equipment or fleet failure, minimizing downtime and increasing overall operational resilience.
+
+- **Intelligent Warehouse Automation**  
+  Machine learning optimizes picking strategies, predicts optimal slotting, flags anomalies in order flow, and coordinates automated systems to improve accuracy and accelerate fulfillment.
 
 ## Code Availability
 These studies live in my private repo as ongoing work.  
