@@ -57,45 +57,48 @@ Modern delivery logistics uses machine learning to anticipate **when**, **where*
 
 ## What ML Commonly Predicts
 
-### 1. Delivery Time Predictions
-- ETA forecasting (minutes or hours)  
-- Probability a delivery will be late  
-- Time-of-day congestion patterns  
-- Per-route or per-driver travel times  
+### 1. **Delivery Delay Risk Classification**
+Predict whether the coming week is **Low / Medium / High** risk for delivery disruption, based on:
 
-### 2. Delay Risk Classification
-- “Low / Medium / High” delay risk  
-- Weather-driven disruptions  
-- Traffic bottlenecks  
-- Volume surges straining capacity  
+- Weather severity (rain, wind, storms)  
+- Market pressure (AMS volume, volatility)  
+- Road incidents & closures (Bay Area open data)  
 
-### 3. Route & Network Bottleneck Detection
-- Roads or regions likely to jam  
-- Predicted travel-time spikes  
-- Infrastructure strain by day/time  
-
-### 4. Demand & Volume Forecasting
-- Expected load per day/week  
-- Anticipated surges slowing transport  
-- Inbound/outbound freight pressure  
-
-### 5. Capacity & Resource Forecasting
-- Required trucks, drivers, or labor  
-- Peaks where capacity will fail  
-- Warehouse/fulfillment throughput  
-
-### 6. Risk Scoring for Operations
-- Weather risk score  
-- Market/supply tightness score  
-- Road network disruption score  
-- Composite delivery-risk score  
-
-### 7. Exception / Event Predictions
-- Likelihood of manual intervention  
-- Probability of reroutes  
-- Spoilage risk for perishables  
+This is the **primary output** of your V1 delivery-risk model.
 
 ---
+
+### 2. **Probability of Delivery Delay (Numeric Score)**
+A numeric **0–1 probability** that conditions will cause a delay.
+
+Useful for:
+
+- Dashboards  
+- Ranking weekly delivery windows  
+- Future ML models (regression or classification)
+
+---
+
+### 3. **Weather-Driven Disruption Risk**
+A sub-score derived entirely from **NOAA weather data**, including:
+
+- Expected precipitation  
+- Wind speeds  
+- Severe weather events  
+
+This matters especially for **small farmers transporting perishables**.
+
+---
+
+### 4. **Market & Network Pressure Forecasting**
+Uses **USDA AMS** + **regional incident data** to estimate:
+
+- Expected volume surges  
+- Demand/supply tightness  
+- Congestion likelihood  
+- Infrastructure or market-driven strain  
+
+This captures the **macro-pressure environment** that raises delivery risk even when the weather is clear.
 
 ## Why This Matters for Small Farmers
 Machine-learning forecasting helps small farms:
@@ -126,6 +129,51 @@ With:
 - **Prediction vs. actual validation**
 
 This serves as the foundation for adding real ML forecasting later (regression, classification, time-series models).
+
+---
+
+## Top 3 Prediction Targets
+
+To keep the delivery-risk project simple, interpretable, and aligned with a weekly ingestion pipeline, the model focuses on three core prediction targets:
+
+### 1. **Delivery Risk Level (Low / Medium / High)**
+- A categorical signal summarizing expected delivery difficulty for the upcoming week.
+- **Examples:**
+  - **Low:**  
+    Sunny week, normal market volume, no planned road closures → deliveries run smoothly.
+  - **Medium:**  
+    Light rain and moderate wind, plus a minor construction closure on a key route → some delays possible.
+  - **High:**  
+    Heavy storms forecast + high AMS market pressure + multiple Bay Area incident reports → high likelihood of late or rerouted deliveries.
+    
+- This is easy for farmers and buyers to understand and works well for dashboards and alerts.
+
+### 2. **Probability of Delivery Delay (numeric)**
+- A quantitative estimate (0–1 or 0–100%) representing the likelihood of a late or disrupted delivery.
+- **Examples:**
+  - **0.15(15%)** – Mostly clear weather; only minor congestion expected.
+  - **0.42(42%)** – Rain predicted mid-week + increased shipment volume → moderate chance of delays.
+  - **0.78(78%)** – Severe weather incoming + low supply elasticity + multiple Bay Area incidents → strong risk of late deliveries.
+
+- This enables thresholding, benchmarking, and future ML model calibration.
+
+### 3. **Weather-Driven Disruption Risk Score**
+- A continuous score derived from NOAA forecasts (precipitation, wind, severe weather counts).
+- - **Examples:**
+  - **0.10** – Light clouds, minimal wind, no precipitation.
+  - **0.55** – 0.5–1 inch of rain expected + 20–30 mph winds.
+  - **0.90** – Multi-day storm system with >2 inches of rainfall, high winds, and NOAA severe weather advisories.
+    
+- Weather is the strongest driver of small-farm delivery disruption, making this a critical feature.
+
+### Why These Three?
+- **Interpretability** — Farmers and buyers can make fast decisions.  
+- **Quantitative insights** — Numeric scores support automation and monitoring.  
+- **ML-ready foundation** — These map cleanly to regression/classification models later.  
+- **Natural weekly cadence** — Perfect alignment with NOAA, USDA AMS, and Bay Area open-data refresh cycles.
+
+These three targets strike the right balance between **simplicity**, **actionability**, and **technical depth**, forming the backbone of the delivery-risk forecasting system.
+
 
 ---
 
