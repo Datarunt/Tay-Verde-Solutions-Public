@@ -47,10 +47,113 @@ Examples include:
 
 - **Bay Area Traffic & Congestion Data** – ideal for speed/delay modeling  
 - **NOAA Weather Observations** – temperature, rain, storm severity  
-- **US DOT Freight & Transit Metrics** – travel-time bottlenecks  
 - **USDA Market Trends** – optional demand signals  
 
 These datasets complement the FMO routing engine and support ML-ready feature engineering.
+
+## 1. USDA AMS Weekly Specialty Crop Reporting
+
+### What the Data Is  
+The USDA Agricultural Marketing Service (AMS) publishes **weekly specialty crop market reports** covering:
+- Prices  
+- Volumes  
+- Supply conditions  
+- Shipping trends  
+- Qualitative market commentary  
+
+Reports include coverage for major U.S. regions, including the West Coast.
+
+### Update Frequency  
+**Weekly** (typically released Friday–Monday depending on the commodity).
+
+### How It Supports ML Research  
+AMS provides highly relevant **market activity signals**, including:
+- Price volatility  
+- Volume surges or shortages  
+- Demand pressure  
+- Regional supply fluctuations  
+
+These allow you to engineer meaningful ML features:
+- Market tightness score  
+- Volume change percentage  
+- Week-over-week volatility  
+
+This dataset is critical for identifying **logistics bottlenecks caused by market pressure** (e.g., higher volume → more trucks → slower transport).
+
+### Why I Chose It  
+- Structured, consistent, public, and **naturally weekly** — perfect for your prediction cadence.  
+- Reflects **real agricultural dynamics**, not generic macro-economic trends.  
+- Directly represents constraints small farmers face (supply swings, demand spikes, trucking pressure).  
+- Beginner-friendly ingestion (CSV/JSON), no complex API authentication needed.
+
+## 2. NOAA Weather Data API
+
+### What the Data Is  
+NOAA’s National Weather Service provides:
+- Daily + hourly **weather forecasts**  
+- **Historical observations**  
+- Temperature, precipitation, wind, storm events  
+
+Delivered through a **stable, free, federally supported API**.
+
+### Update Frequency  
+- Forecasts: **Multiple updates per day**  
+- Historical observations: **Continuously available**
+
+### How It Supports ML Research  
+Weather is the **#1 driver** of small-farm delivery delays:
+- Rain → slower transport, road hazards  
+- Wind → unsafe driving conditions  
+- Storms → closures, harvest delays  
+
+NOAA data enables:
+- Feature engineering (precip totals, avg wind, severe weather count)  
+- Weekly **weather disruption scoring**  
+- Prediction vs. actual validation using historical observations  
+- Simple integration into time-series or risk-classification models  
+
+### Why I Chose It  
+- Free, reliable, and government-maintained — long-term stability.  
+- Weather has **high, immediate impact** → best ROI for early modeling.  
+- Forecasts align naturally with the **weekly prediction window**.  
+- Historical data makes **weekly accuracy scoring** straightforward.
+
+## 3. Bay Area Open Data (SF, SJ, Oakland)
+
+### What the Data Is  
+Bay Area cities publish open datasets on:
+- Traffic incidents  
+- Road closures  
+- Construction events  
+- Public safety alerts  
+- Transit disruptions  
+
+These represent **ground-truth operational conditions** affecting deliveries.
+
+### Update Frequency  
+Varies by city:
+- Some update **daily**  
+- Others **multiple times per week**  
+- Historical archives typically available
+
+### How It Supports ML Research  
+This data enables **road-network disruption features** such as:
+- Weekly incident count  
+- Closure count  
+- Construction event frequency  
+
+Supports:
+- Identifying regional bottlenecks  
+- Enhancing multi-factor delivery-risk models  
+- Providing **actuals** for comparing weekly predictions vs. reality  
+
+It complements NOAA + AMS by adding **local, operational-level risk signals**.
+
+### Why I Chose It  
+- Free, local, and directly relevant to Bay Area farmer deliveries.  
+- Avoids early dependence on expensive traffic APIs (Google, TomTom, HERE).  
+- Matches perfectly with your **weekly aggregation strategy**.  
+- Easy to ingest (CSV/JSON), beginner-friendly.
 
 ---
 
