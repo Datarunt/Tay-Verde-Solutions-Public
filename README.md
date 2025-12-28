@@ -1,0 +1,6 @@
+- Hardware BOM (minimal)
+- Wiring diagram photo (even if simple)
+- How to flash/build
+- Where logs live
+- The failure injection checklist (brownout, disconnect, bus lock)
+- Links to evidence in /docs/
