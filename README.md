@@ -9,7 +9,7 @@ The system is intentionally split into four focused, frozen repositories.
 3. [Control-plane](https://github.com/yourusername/risk-control-plane-airflow)
 4. [ML-system](https://github.com/Datarunt/Tay-Verde-Solutions-ML-System)
 
-You are currently viewing: **<Edge-Reliability>**
+You are currently viewing: **Edge-reliability**
 
 - Hardware BOM (minimal)
 - Wiring diagram photo (even if simple)
