@@ -1,4 +1,4 @@
-## System context
+## System context:Edge-reliability
 
 This repository is part of a larger **reliability-first industrial IoT system**.
 The system is intentionally split into four focused, frozen repositories.
@@ -8,8 +8,6 @@ The system is intentionally split into four focused, frozen repositories.
 2. [Data-ingestion](https://github.com/Datarunt/Tay-Verde-Solutions-Data-Ingestion)
 3. [Control-plane](https://github.com/yourusername/risk-control-plane-airflow)
 4. [ML-system](https://github.com/Datarunt/Tay-Verde-Solutions-ML-System)
-
-You are currently viewing: **Edge-reliability**
 
 - Hardware BOM (minimal)
 - Wiring diagram photo (even if simple)
