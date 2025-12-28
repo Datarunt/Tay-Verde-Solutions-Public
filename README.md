@@ -26,3 +26,8 @@ Deliverables
 - I²C recovery logic + measured recovery time
 - Local persistence test notes
 - Failure photos + diagnosis notes mapped to IPC-A-610
+
+---
+
+**Next:** See how edge data is validated and made replayable → [Data-ingestion](https://github.com/Datarunt/Tay-Verde-Solutions-Data-Ingestion)
+
